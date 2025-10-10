@@ -23,9 +23,10 @@ class Notifcation extends Model
         'user_id',
         'sender_id',
         'title',
-        'message',
         'type',
+        'message',
         'data',
+        'status',
     ];
 
     /**

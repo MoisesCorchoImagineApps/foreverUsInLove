@@ -20,14 +20,13 @@ class UserSettings extends Model
      * @var array
      */
     protected $fillable = [
-        "show_my_age",
+        'user_id',
+        'show_my_age',
         'distance_visible',
         'show_notification',
-        'push_notification',
         'send_mail',
         'distance_unit',
         'ghost_mode',
-        'user_id',
     ];
 
     public function getShowMyAgeAttribute($value)

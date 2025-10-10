@@ -23,9 +23,7 @@ class UserQuestions extends Model
     protected $fillable = [
         "user_id",
         "question_id",
-        "question_type",
-        'created_at',
-        'updated_at'
+        "question_type"
     ];
 
     

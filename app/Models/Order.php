@@ -20,17 +20,20 @@ class Order extends Model
      * @var array
      */
     protected $fillable = [
+        'user_id',
+        'order_id',
+        'payment_provider',
         'subscription_id',
         'currency_code',
         'start_date',
         'end_date',
-        'status',
+        'payment_status',
+        'payment_type',
         'month',
-        'user_id',
+        'status',
+        'call_chat_time_limit',
         'like_per_day',
-        'plan_type',
-        'order_id',
-        'payment_provider'
+        'plan_type'
     ];
 
     /**

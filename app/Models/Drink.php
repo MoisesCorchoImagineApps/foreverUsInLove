@@ -20,13 +20,6 @@ class Drink extends Model
      * @var array
      */
     protected $fillable = [
-        /*"show_my_age",
-        'distance_visible',
-        'show_notification',
-        'push_notification',
-        'ghost_mode',
-        'user_id',
-        'night_mode',*/
         'title'
     ];
 

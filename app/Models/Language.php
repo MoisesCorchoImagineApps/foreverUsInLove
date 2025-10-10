@@ -20,9 +20,7 @@ class Language extends Model
      * @var array
      */
     protected $fillable = [
-        "title",
-        'created_at',
-        'updated_at'
+        "title"
     ];
 
     

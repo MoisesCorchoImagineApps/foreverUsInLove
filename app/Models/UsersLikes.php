@@ -29,7 +29,6 @@ class UsersLikes extends Model
         'notification',
         'read_status',
         'matched_at',
-        'read_status',
         'match_as',
     ];
 

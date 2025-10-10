@@ -20,16 +20,8 @@ class UserDefaultSettings extends Model
      * @var array
      */
     protected $fillable = [
-        'subscription_id',
-        'amount',
-        'currency_code',
-        'start_date',
-        'end_date',
-        'status',
-        'transaction_id',
-        'payment_type',
-        'month',
-        'user_id',
+        'key',
+        'value',
     ];
 
     /**

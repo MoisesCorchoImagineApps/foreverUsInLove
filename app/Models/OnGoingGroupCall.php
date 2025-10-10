@@ -22,10 +22,11 @@ class OnGoingGroupCall extends Model
      */
      protected $fillable = [
         'room_id',
+        'user_id',
         'channel_name',
         'u_id',
-        'token',
         'remote_id',
+        'token',
     ];
 
     /**

@@ -25,6 +25,7 @@ class UsersReport extends Model
         'report_reason',
         'message',
         'type',
+        'action',
     ];
 
     /**

@@ -20,8 +20,8 @@ class ArOrder extends Model
      * @var array
      */
     protected $fillable = [
-        'ar_name',
-        'ar_file',
+        'user_id',
+        'ar_id',
         'coin',
     ];
 
