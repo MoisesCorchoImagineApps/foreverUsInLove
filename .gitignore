@@ -22,3 +22,7 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Exclude all .txt and .md files within app directory and subdirectories
+app/**/*.txt
+app/**/*.md
